@@ -1,0 +1,137 @@
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+.logo-area img{
+  max-width: 250px;
+}
+.logo-area{
+  text-align: center;
+}
+.cart-count {
+  left: 0px;
+}
+.header-cart .cart-tooltip, .profile .cart-tooltip {
+  left: 0;
+  right: auto;
+}
+.row-services .service::after{
+  height: 0;
+}
+.col-chanse{
+  background-position: 100% 0px;
+  background-size: cover;
+}
+.tabcontent h3{
+  top: -50px;
+  padding-right: 10px;
+}
+.thumnail-sty2::before{
+  content: "";
+}
+.row-category {
+    padding: 30px 0 80px;
+}
+.content-category:nth-child(2n+1) .sty-cat::after{
+  content: "";
+}
+.content-category:nth-child(2n) .sty-cat::after{
+  content: "";
+}
+.content-category:nth-child(2n+1) .sty-cat{
+  border-radius: 3px;
+}
+.content-category:nth-child(2n) .sty-cat{
+  border-radius: 3px;
+}
+.inner-gallery {
+  background: rgb(0, 0, 0);
+}
+.inner-gallery::before {
+  opacity: 1;
+}
+.top-footer {
+    margin-bottom: -66px;
+}
+/* SingleArticle */
+.feature-img::after {
+  width: 0;
+}
+ }
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .cart-count {
+    left: 0px;
+  }
+  .logo-area img{
+    max-width: 300px;
+  }
+  .logo-area{
+    text-align: center;
+  }
+  .header-cart .cart-tooltip, .profile .cart-tooltip {
+    left: -75px;
+    right: auto;
+  }
+  .row-services .service::after{
+    height: 0;
+  }
+  .col-chanse{
+    background-position: 100% 0px;
+    background-size: cover;
+  }
+  .row-category {
+      padding: 30px 0 80px;
+  }
+  .inner-gallery {
+    background: rgb(0, 0, 0);
+  }
+  .inner-gallery::before {
+    opacity: 1;
+  }
+  .top-footer {
+    margin-bottom: -86px;
+}
+/* SingleArticle */
+.feature-img::after {
+  width: 0;
+}
+ }
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .header-cart .cart-tooltip, .profile .cart-tooltip {
+    left: 0;
+    right: auto;
+  }
+  .row-services .service:nth-child(2)::after{
+    height: 0;
+  }
+  .col-chanse{
+    background-position: 100% 0px;
+    background-size: cover;
+  }
+  .row-category {
+      padding: 30px 0 80px;
+  }
+  /* SingleArticle */
+  .feature-img::after {
+    width: 0;
+  }
+ }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .header-cart .cart-tooltip, .profile .cart-tooltip {
+    left: 0;
+    right: auto;
+  }
+  .inner-gallery {
+    top: -10px;
+  }
+  .social-network {
+    bottom: 63px;
+}
+ }
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+ }
